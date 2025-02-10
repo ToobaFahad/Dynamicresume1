@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> DYNAMIC RESUME</title>
+        <style>
+            input{width:100%;
+            border-radius: 4px;
+        background-color: rgb(241, 241, 68);}
+        
+        </style>
+    </head>
+    <body style="background-color: aqua;">
+        <h1> DYNAMIC RESUME BUILDER</h1>
+        <form id="dynres">
+            <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <br/>
+            <label for ="fname"> Name :  </label>
+            <input type="text" id="fname" placeholder="enter your name here" required>
+            <br/>
+            <br/>
+        
+         <label for ="email"> E-mail :</label>
+            <input type="email" id="email">
+            <br/>
+            <br/>
+
+            <label for ="phone"> Phone :</label>
+            <input type ="tel" id ="phone">
+            </fieldset>
+            <br/><br/>
+            <fieldset>
+                <legend>EDUCATION</legend>
+                <label for ="masters">Masters :</label>
+                <input type="text" id="masters"> 
+                <br/><br/>
+                <label for="bachelours" > Bachelours :</label>
+                <input type="text" id="bachelours">
+            </fieldset>
+            <br/>
+            <br/>
+            <fieldset>
+                <legend>SKILLS</legend>
+                <label for= "skill">Skills :</label>
+                <input type="text" id="skill">
+            </fieldset>
+            <br/>
+            <br/>
+<fieldset>
+    <legend>EXPERIENCE</legend>
+    <label for ="exp"> Experience :</label>
+    <input type ="text" id="exp">
+</fieldset>
+<Br/>
+<br/>
+</form>
+<button id="submit"; style="background-color: rgb(232, 232, 20); font-size: larger";>Generate Resume </button>
+<br/>
+ <br/>
+<div id="resdis"> RESUME OUTPUT
+    
+</div>
+    
+    <script src="script.js"></script> 
+        
+    </body>
+</html>
